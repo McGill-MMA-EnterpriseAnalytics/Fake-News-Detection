@@ -5,7 +5,7 @@
 In today’s digital world, fake news spreads rapidly, influencing public opinion, financial markets, and even political decisions. Whether it’s a **sensational headline** or a **misleading article shared on social media**, misinformation has become a serious concern. To combat this issue, we explore **machine learning-based fake news detection**.  
 
 #### 1.1 **Dataset Overview**  
-For this project, we use the **ISOT Fake News Dataset** from Kaggle, which contains both **real** and **fake** news articles. The dataset consists of:  
+For this project, we use the **ISOT Fake News Dataset** from Kaggle (https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data), which contains both **real** and **fake** news articles. The dataset consists of:  
 - **True.csv** – Over **12,600** verified news articles from *Reuters.com*.  
 - **Fake.csv** – More than **12,600** articles from unreliable sources, flagged by *Politifact* and *Wikipedia*.  
 - **Content Focus** – Primarily **political and world news** from **2016–2017**.  
@@ -29,7 +29,8 @@ We conducted data visualization on both the **text** and **title**, including:
 - Word clouds for key term representation  
 - Dissimilarity matrix analysis for both fake and real news articles  
 
-Detailed insights from these visualizations can be found in **1.2.3 Insights Drawn from Data Visualization and Comparison Between Title and Text** in the code file.  
+Detailed insights from these visualizations can be found in **1.2.3 Insights Drawn from Data Visualization and Comparison Between Title and Text** in the **Fake News Detection_Group6** file. 
+
 
 ## 3.0 Unsupervised Model  
 To uncover hidden patterns in fake and real news, we applied multiple unsupervised learning techniques:  
@@ -39,7 +40,7 @@ To uncover hidden patterns in fake and real news, we applied multiple unsupervis
 
 These models were applied separately to both **titles** and **full text**, allowing us to analyze patterns at different levels.  
 
-Key insights from the clustering models can be found in **2.5.1 Insights on Title Clusters** and **2.5.2 Insights on Text Clusters**  
+Key insights from the clustering models can be found in **2.5.1 Insights on Title Clusters** and **2.5.2 Insights on Text Clusters** in the **Fake News Detection_Group6** file. 
 
 
 

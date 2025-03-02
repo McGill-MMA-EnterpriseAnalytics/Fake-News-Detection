@@ -29,7 +29,7 @@ We conducted data visualization on both the **text** and **title**, including:
 - Word clouds for key term representation  
 - Dissimilarity matrix analysis for both fake and real news articles  
 
-Detailed insights from these visualizations can be found in **1.2.3 Insights Drawn from Data Visualization and Comparison Between Title and Text** in the **Fake News Detection_Group6** file. 
+Detailed insights from these visualizations can be found in **1.2.3 Insights Drawn from Data Visualization and Comparison Between Title and Text** in **1. Data Preprocessing** file. 
 
 
 ## 3.0 Unsupervised Model  
@@ -40,7 +40,7 @@ To uncover hidden patterns in fake and real news, we applied multiple unsupervis
 
 These models were applied separately to both **titles** and **full text**, allowing us to analyze patterns at different levels.  
 
-Key insights from the clustering models can be found in **2.5.1 Insights on Title Clusters** and **2.5.2 Insights on Text Clusters** in the **Fake News Detection_Group6** file. 
+Key insights from the clustering models can be found in **2.5.1 Insights on Title Clusters** and **2.5.2 Insights on Text Clusters** in the **1. Data Preprocessing** file. 
 
 
 

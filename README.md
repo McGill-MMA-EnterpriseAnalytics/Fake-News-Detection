@@ -2,7 +2,7 @@
 
 ### 1.0 Introduction  
 
-In today’s digital world, **fake news spreads rapidly**, influencing public opinion, financial markets, and even political decisions. Whether it’s a **sensational headline** or a **misleading article shared on social media**, misinformation has become a serious concern. To combat this issue, we explore **machine learning-based fake news detection**.  
+In today’s digital world, fake news spreads rapidly, influencing public opinion, financial markets, and even political decisions. Whether it’s a **sensational headline** or a **misleading article shared on social media**, misinformation has become a serious concern. To combat this issue, we explore **machine learning-based fake news detection**.  
 
 #### 1.1 **Dataset Overview**  
 For this project, we use the **ISOT Fake News Dataset** from Kaggle, which contains both **real** and **fake** news articles. The dataset consists of:  
@@ -19,7 +19,7 @@ Our goal is to develop a **machine learning pipeline** that:
 
 By leveraging **machine learning** and **Natural Language Processing (NLP)**, this project aims to **enhance information integrity** and provide valuable insights for **businesses, social media platforms, and news organizations** to combat misinformation effectively.  
 
----
+
 
 ### 2.0 Exploratory Data Analysis (EDA)  
 
@@ -41,7 +41,7 @@ These models were applied separately to both **titles** and **full text**, allow
 
 Key insights from the clustering models can be found in **2.5.1 Insights on Title Clusters** and **2.5.2 Insights on Text Clusters**  
 
----
+
 
 ## 4.0 Supervised Model  
 
@@ -57,7 +57,7 @@ To enhance model performance, we engineered additional numerical features for cl
 - Identifying frequently used words in **fake vs. real news**.  
 - Presence of specific keywords such as *“video”* and *“Trump”*, which frequently appear in misleading headlines.  
 
----
+
 
 ### 4.2 Model Selection  
 We trained **Random Forest**, **Logistic Regression**, and **Gradient Boosting** on the engineered features. Model performance was evaluated using:  
@@ -89,9 +89,13 @@ We trained **Random Forest**, **Logistic Regression**, and **Gradient Boosting**
 - **Key Insight**:  
   - Gradient Boosting effectively captured complex patterns but slightly underperformed compared to Random Forest.  
 
-✅ **Overall, Random Forest outperformed the other models with the highest accuracy and better handling of false positives/negatives.**  
+✅ **Overall, Random Forest is our final model as it outperformed the other models with the highest accuracy and better handling of false positives/negatives.**  
+As Random Forest had the highest accuracy, we performed hyperparameter tuning on the model. However, we did not see an improvement in accuracy. This may be due to the model already reaching an optimal level of performance with the given dataset. Since Random Forest is an ensemble method that aggregates multiple decision trees, further tuning may have led to overfitting rather than meaningful gains in accuracy.  
 
----
+Additionally, the dataset itself may have limitations, such as a lack of diverse or recent news articles, which could restrict the model’s ability to generalize better. The distribution of fake and real news articles in the dataset might also contribute to the model’s performance plateau, as Random Forest is already leveraging the most informative features effectively.  
+
+Future work could involve testing the model on more recent and diverse datasets, incorporating additional textual features, or exploring deep learning approaches like transformers to further improve performance.\\
+
 ## Extension
 ## 5.0 NLP Models  
 To further improve classification performance, we explored **NLP-based deep learning models**.  
@@ -114,7 +118,7 @@ To further improve classification performance, we explored **NLP-based deep lear
 
 🚀 **BERT + BiGRU achieved the best performance among all models, with almost perfect classification accuracy.**  
 
----
+
 
 ## 6.0 Conclusion  
 
@@ -124,7 +128,7 @@ Our model addresses the needs of three key stakeholders:
 2. **Legislators** – Policymakers concerned with electoral integrity and the spread of misinformation.  
 3. **News Publishers** – Media organizations seeking to maintain credibility and improve user engagement.  
 
-By **proactively identifying and intercepting fake news**, the model helps prevent the spread of misinformation before it reaches a broad audience. This contributes to **protecting public opinion**, ensuring **electoral fairness**, and maintaining **trust in media sources**.  
+By proactively identifying and intercepting fake news, the model helps prevent the spread of misinformation before it reaches a broad audience. This contributes to **protecting public opinion**, ensuring **electoral fairness**, and maintaining **trust in media sources**.  
 
 ### **Potential Applications**  
 The model can be deployed in scenarios such as:  
@@ -144,5 +148,5 @@ While our final model achieved **near-perfect accuracy**, this may be due to the
 - **Evaluate performance on unseen news sources** to assess its adaptability.  
 - **Incorporate real-time updates** to capture new misinformation trends as they emerge.  
 
-🚀 **In summary, our model serves as a powerful tool in combating misinformation, benefiting both individual users and the broader media ecosystem.** However, ongoing validation with fresh data is essential to maintaining its effectiveness.  
+In summary, our model serves as a powerful tool in combating misinformation, benefiting both individual users and the broader media ecosystem. However, ongoing validation with fresh data is essential to maintaining its effectiveness.  
 

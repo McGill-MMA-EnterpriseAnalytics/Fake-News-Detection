@@ -19,6 +19,7 @@ Our goal is to develop a **machine learning pipeline** that:
 
 By leveraging **machine learning** and **Natural Language Processing (NLP)**, this project aims to **enhance information integrity** and provide valuable insights for **businesses, social media platforms, and news organizations** to combat misinformation effectively.  
 
+---
 
 ### 2.0 Exploratory Data Analysis (EDA)  
 
@@ -35,11 +36,10 @@ To uncover hidden patterns in fake and real news, we applied multiple unsupervis
 
 - **LDA (Latent Dirichlet Allocation)** – Topic modeling to identify common themes in news articles.  
 - **K-Means Clustering** – Grouping articles based on textual similarity.  
-- **NMF (Non-Negative Matrix Factorization)** – Decomposing text into meaningful components.  
 
 These models were applied separately to both **titles** and **full text**, allowing us to analyze patterns at different levels.  
 
-Key insights from the clustering models can be found in **2.1 Insights for Unsupervised Models**.  
+Key insights from the clustering models can be found in **2.5.1 Insights on Title Clusters** and **2.5.2 Insights on Text Clusters**  
 
 ---
 
@@ -92,7 +92,7 @@ We trained **Random Forest**, **Logistic Regression**, and **Gradient Boosting**
 ✅ **Overall, Random Forest outperformed the other models with the highest accuracy and better handling of false positives/negatives.**  
 
 ---
-
+## Extension
 ## 5.0 NLP Models  
 To further improve classification performance, we explored **NLP-based deep learning models**.  
 
@@ -114,6 +114,7 @@ To further improve classification performance, we explored **NLP-based deep lear
 
 🚀 **BERT + BiGRU achieved the best performance among all models, with almost perfect classification accuracy.**  
 
+---
 
 ## 6.0 Conclusion  
 

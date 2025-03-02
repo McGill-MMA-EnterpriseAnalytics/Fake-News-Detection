@@ -1,4 +1,4 @@
-# Fake-News-Detection  
+# Fake-News-Detection using Machine Learning 
 
 ### 1.0 Introduction  
 

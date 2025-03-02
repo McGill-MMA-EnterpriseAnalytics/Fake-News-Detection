@@ -98,6 +98,8 @@ Additionally, the dataset itself may have limitations, such as a lack of diverse
 Future work could involve testing the model on more recent and diverse datasets, incorporating additional textual features, or exploring deep learning approaches like transformers to further improve performance.
 
 ## Extension
+Building on our strong results with the Random Forest model, we recognized an opportunity to further innovate by exploring modern NLP-based deep learning approaches. Since our dataset is heavily text-focused, we hypothesized that advanced language models might capture nuanced linguistic patterns more effectively than traditional feature-engineering methods. In particular, we looked into Transformer-based architectures (e.g., BERT) and other deep learning frameworks that leverage contextual embeddings. By doing so, we aim to uncover subtler cues in writing style, syntax, and semantics that might improve classification performance. This exploration marks a new direction in our project, as it goes beyond the classic supervised learning pipeline and taps into state-of-the-art NLP techniques to handle the complexities inherent in large-scale textual data.
+
 ## 5.0 NLP Models  
 To further improve classification performance, we explored **NLP-based deep learning models**.  
 

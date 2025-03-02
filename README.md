@@ -94,7 +94,7 @@ As Random Forest had the highest accuracy, we performed hyperparameter tuning on
 
 Additionally, the dataset itself may have limitations, such as a lack of diverse or recent news articles, which could restrict the model’s ability to generalize better. The distribution of fake and real news articles in the dataset might also contribute to the model’s performance plateau, as Random Forest is already leveraging the most informative features effectively.  
 
-Future work could involve testing the model on more recent and diverse datasets, incorporating additional textual features, or exploring deep learning approaches like transformers to further improve performance.\\
+Future work could involve testing the model on more recent and diverse datasets, incorporating additional textual features, or exploring deep learning approaches like transformers to further improve performance.
 
 ## Extension
 ## 5.0 NLP Models  
